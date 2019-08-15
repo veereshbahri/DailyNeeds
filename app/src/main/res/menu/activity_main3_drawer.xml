@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+
+        <item
+            android:id="@+id/nav_my_orders"
+            android:icon="@mipmap/orders"
+            android:title="my orders" />
+        <item
+            android:id="@+id/nav_my_cart"
+            android:icon="@mipmap/blackcart"
+            android:title="my cart" />
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@mipmap/myaccount"
+            android:title="my account" />
+
+    </group>
+
+
+
+</menu>

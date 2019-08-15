@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseAuth;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class SignInFragment extends Fragment {
+public class  SignInFragment extends Fragment {
 
 
     public SignInFragment() {
@@ -68,6 +68,7 @@ public class SignInFragment extends Fragment {
             setFragment(new SignUpFragment());
         }
     });
+
 
     }
     private void setFragment(Fragment  fragment)
