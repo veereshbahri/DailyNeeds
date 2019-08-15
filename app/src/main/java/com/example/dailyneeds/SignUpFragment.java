@@ -191,7 +191,7 @@ public class SignUpFragment extends Fragment {
                     if(!TextUtils.isEmpty(confirmPassword.getText()))
                     {
                         signupBtn.setEnabled(true);
-                        signupBtn.setTextColor(Color.argb(50,255,255,255));
+                        signupBtn.setTextColor(Color.argb(255,255,255,255));
                     }
                     else
                     {
